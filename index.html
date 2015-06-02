@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>browseraxis</title>
+    <meta name="description" content="Easily retrieve the width and height of your browser viewport." />
+    <meta name="keywords" content="browser, size, resolution, dimensions, viewport, width, height" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <style>
+      html {
+        background:
+          linear-gradient(#9e9e9e, #9e9e9e) repeat-x center / 1px 1px,
+          linear-gradient(#9e9e9e, #9e9e9e) repeat-y center / 1px 1px,
+          #fff url(grid.svg) repeat center;
+        color: #9e9e9e; font: 10px Monaco, Consolas, monospace; height: 100%; margin: 0; padding: 0;
+      }
+
+      .label {padding: 5px; position: absolute}
+      .label-width {right: 0; bottom: 50%}
+      .label-height {top: 0; left: 50%}
+    </style>
+  </head>
+  <body>
+    <span class="label label-width"></span>
+    <span class="label label-height"></span>
+    <script src="app.js"></script>
+  </body>
+</html>
