@@ -10,10 +10,22 @@
     <style>
       html {
         background:
-          linear-gradient(#9e9e9e, #9e9e9e) repeat-x center / 1px 1px,
-          linear-gradient(#9e9e9e, #9e9e9e) repeat-y center / 1px 1px,
-          #fff url(grid.svg) repeat center;
-        color: #9e9e9e; font: 10px Monaco, Consolas, monospace; height: 100%; margin: 0; padding: 0;
+          linear-gradient(#999 1px, transparent 1px), linear-gradient(90deg, #999 1px, transparent 1px),
+          linear-gradient(#ddd 1px, transparent 1px), linear-gradient(90deg, #ddd 1px, transparent 1px),
+          linear-gradient(#eee 1px, transparent 1px), linear-gradient(90deg, #eee 1px, transparent 1px);
+        background-position:
+          0 calc(50vh - .5px), calc(50vw - .5px),
+          0 calc(50vh - .5px), calc(50vw - .5px),
+          0 calc(50vh - .5px), calc(50vw - .5px);
+        background-size:
+          100% 100%, 100% 100%,
+          10em 10em, 10em 10em,
+          1em 1em, 1em 1em;
+        color: #999;
+        font: 10px Monaco, Consolas, monospace;
+        height: 100%;
+        margin: 0;
+        padding: 0;
       }
 
       .label {padding: 5px; position: absolute}
