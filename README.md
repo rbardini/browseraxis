@@ -1,3 +1,3 @@
-# [browseraxis](http://rbardini.github.io/browseraxis)
+# [browseraxis](https://browseraxis.rbrd.in)
 
 Easily retrieve the width and height of your browser viewport.
